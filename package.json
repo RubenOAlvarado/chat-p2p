@@ -1,6 +1,19 @@
 {
+  "name": "p2p-chat-app",
+  "version": "1.0.0",
+  "description": "A simple peer-to-peer chat app using Hyperswarm",
   "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "keywords": ["p2p", "chat", "hyperswarm", "decentralized", "nodejs"],
+  "author": "Ruben O. Alvarado",
+  "license": "MPL-2.0",
   "dependencies": {
-    "hyperswarm": "4.11.4"
+    "hyperswarm": "^4.11.4"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
